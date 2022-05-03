@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de textos</title>
+    <title>Outras formatações</title>
 </head>
 <body>
-    <h1>Principais formatações</h1>
-    <h2>Negrito / destaque</h2>
-    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
-    <p>Nesta frase tenho um <strong>termo em destaque</strong> usando a tag Strong (semântica)</p>
-    <h2>Itálico / ênfase</h2>
-    <p>Nesta frase, temos um  <i>termo em itálico</i> usando a tag I (não semântica)</p>
-    <p>Nesta frase temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
-    <h2>Texto marcado</h2>
-    <p>Podemos criar um <mark>texto marcado</mark> pela tag MARK</p>
-    <p>Podemos criar um <mark style="background-color: lime;">texto marcado</mark> pela tag MARK com CSS</p>
-    <h2>Texto grande e pequeno</h2>
-    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo</p>
-    <h2>Texto deletado</h2>
-    <p>Podemos marcar um <del>texto como excluído</del> para identificar que ele deve ser lido, mas não considerado </p>
-    <h2>Texto inserido</h2>
-    <p>Podemos marcar o <ins>texto como inserido</ins>, para dar um ênfase que ele foi adicionado depois</p>
-    <p>Existe também o <u>texto sublinhado</u> com a tag U (não semântica) </p>
-    <h2>Texto sobrescrito</h2>
-    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
-    <h2>Texto subscrito</h2>
-    <p>para inserir coisa como H<sub>2</sub>O</p>
-
+    <h1>Outras formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O comando <code>document.getElementBYId('Teste')</code> é inscrito em liguagem JavaScript</p>
+    <pre>
+        <code>
+            
+                function startTime()
+                {
+                var today=new Date();
+                var h=today.getHours();
+                var m=today.getMinutes();
+                var s=today.getSeconds();
+                // add a zero in front of numbers<10
+                m=checkTime(m);
+                s=checkTime(s);
+               
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo o autor, em seu livro HTML para leigos: </p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&dq=google+livros+html&hl=pt-PT&sa=X&redir_esc=y#v=onepage&q=google%20livros%20html&f=false">
+        Este ícone indica informações que tomam a marcação HTML ou outras coisas importantes ainda menos complicadados que você temia que fossem.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estundando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">O texto invertido é legal</bdo></p>
 </body>
 </html>
