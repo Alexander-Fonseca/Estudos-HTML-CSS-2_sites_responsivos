@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem dinânica</title>
-    <h1>Tente abrir este site em vários dispositivos</h1>
+    <title>Midias em HTML</title>
+    
 </head>
 <body>
-    
+    <h1>Imagem dinânica</h1>
+    <p>
+        Tente abrir este site em vários dispositivos diferentes,
+            ou simplesmente aumente  ou diminua o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+
+        <img src="img/foto-g.png" alt="imagem flexivel">
+    </picture>
 </body>
 </html>
