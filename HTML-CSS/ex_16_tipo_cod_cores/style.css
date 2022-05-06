@@ -4,23 +4,27 @@
     font-family: Arial, Helvetica, sans-serif;
     /* height: 100%; */
 }
+body{
+
+    background-image: linear-gradient(to right, #F2DCAE, #FFFBDE, #E1E8D5);
+}
 
 main{
     background-color: white;
     width: 600px;
     padding: 15px;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #887c63b2;
 }
 h1{
-    color: #BCD4BF;
+    color: #67aa6f;
+    text-align: center;
+    text-shadow: 1px 1px 0px #436e48;
+    
 }
 h2{
-    color: #D5F5ED;
-}
-
-body{
-
-    background-image: linear-gradient(to right, #F2DCAE, #FFFBDE, #E1E8D5);
+    color: #5e7e76;
 }
 
 p{
