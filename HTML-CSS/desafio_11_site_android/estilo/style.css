@@ -19,15 +19,42 @@
   --fonte-destaque: 'Bebas Neue', cursive;
   --fonte-android: 'Android', cursive;
 }
+/* tirando todas as margens abaixo */
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+}
 
 body{
   background-color: var(--cor0);
   font-family: var(--fonte-padrao);
 }
 
+header {
+
+  background-color: var(--cor4);
+}
+
 header > h1{
-  color: var(--cor3);
+  color: white;
   font-family: var(--fonte-destaque);
+}
+
+header > p {
+  color: white;
+}
+
+nav {
+
+  background-color: var(--cor5);
+
+}
+
+main {
+
+  background-color: white;
 }
 
 main h1 {
@@ -37,4 +64,10 @@ main h1 {
 
 main h2 {
   font-family: var(--fonte-android);
+}
+
+footer {
+
+  background-color: var(--cor5);
+  color: white;
 }
