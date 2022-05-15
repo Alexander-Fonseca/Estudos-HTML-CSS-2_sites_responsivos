@@ -43,11 +43,16 @@ header {
 header > h1{
   color: white;
   font-family: var(--fonte-destaque);
+  font-size: 3em;
   margin-bottom: 20px;
 }
 
 header > p {
   color: white;
+  font-size: 1.2em;
+  font-family: var(--fonte-padrao);
+  max-width: 500px;
+  margin: auto;
 }
 
 nav {
