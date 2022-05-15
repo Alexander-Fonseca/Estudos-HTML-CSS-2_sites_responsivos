@@ -35,11 +35,15 @@ body{
 header {
 
   background-color: var(--cor4);
+  min-height: 150px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 header > h1{
   color: white;
   font-family: var(--fonte-destaque);
+  margin-bottom: 20px;
 }
 
 header > p {
@@ -49,6 +53,7 @@ header > p {
 nav {
 
   background-color: var(--cor5);
+  
 
 }
 
