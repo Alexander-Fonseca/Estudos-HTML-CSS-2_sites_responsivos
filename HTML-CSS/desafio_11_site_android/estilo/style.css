@@ -34,7 +34,7 @@ body{
 
 header {
 
-  background-color: var(--cor4);
+background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));  
   min-height: 150px;
   text-align: center;
   padding-top: 40px;
@@ -45,6 +45,7 @@ header > h1{
   font-family: var(--fonte-destaque);
   font-size: 3em;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
 }
 
 header > p {
@@ -52,7 +53,10 @@ header > p {
   font-size: 1.2em;
   font-family: var(--fonte-padrao);
   max-width: 500px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin: auto;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.342);
 }
 
 nav {
