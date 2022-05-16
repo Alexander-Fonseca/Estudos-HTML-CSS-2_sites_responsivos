@@ -25,6 +25,7 @@
   padding: 0px;
 }
 
+
 body {
   background-color: var(--cor0);
   font-family: var(--fonte-padrao);
@@ -97,12 +98,19 @@ main h2 {
   font-family: var(--fonte-android);
 }
 
+main p {
+
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+}
+
 main img {
   width: 100%;
 }
 
 main img.pequena {
-  width: 50%;
+  max-width: 350px;
   display: block;
   margin: auto;
 }
