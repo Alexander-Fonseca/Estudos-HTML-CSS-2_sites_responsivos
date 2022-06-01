@@ -1,4 +1,4 @@
-# Estudos
+# Estudos HTML e CSS
  Curso de HTML e CSS do Cursoemvideo.
  
  Foram dois desafios no final, criando uma página completa responsiva com imagens e vídeo.
